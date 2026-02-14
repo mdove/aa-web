@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Resources — Aldar Academy</title>
+  <meta name="description" content="Learning resources for Aldar Academy students — access Google Classroom, Khan Academy, Code.org, virtual field trips, and more.">
+  <meta property="og:title" content="Student Resources — Aldar Academy">
+  <meta property="og:description" content="Learning tools and resources for current Aldar Academy students and families.">
+  <meta property="og:image" content="images/og-image.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.gif" alt="Aldar Academy">
+        <span>Aldar Academy</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="programs.html" class="nav__link">Programs</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="donate.html" class="nav__link">Donate</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="resources.html" class="nav__link nav__link--active">Resources</a>
+        <a href="donate.html" class="btn btn--accent btn--sm nav__donate">Donate Now</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Student Resources</h1>
+      <p>Learning tools, digital resources, and helpful links for Aldar Academy students and families.</p>
+    </div>
+  </section>
+
+  <!-- Digital Learning Tools -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2>Digital Learning Tools</h2>
+        <p>The platforms and tools our students use in and out of the classroom.</p>
+      </div>
+      <div class="grid grid--3">
+        <a href="https://classroom.google.com" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3 class="card__title">Google Classroom</h3>
+          <p class="card__text">Access assignments, materials, and communicate with teachers through Google Classroom.</p>
+          <span class="card__link">Open Google Classroom →</span>
+        </a>
+
+        <a href="https://www.khanacademy.org" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <h3 class="card__title">Khan Academy</h3>
+          <p class="card__text">Free lessons in math, science, history, and more — learn at your own pace with videos and practice exercises.</p>
+          <span class="card__link">Open Khan Academy →</span>
+        </a>
+
+        <a href="https://www.splashlearn.com" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <div class="card__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3 class="card__title">SplashLearn</h3>
+          <p class="card__text">Fun, game-based learning for math and reading — designed to make practice engaging for younger students.</p>
+          <span class="card__link">Open SplashLearn →</span>
+        </a>
+
+        <a href="https://www.getepic.com" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3 class="card__title">Epic!</h3>
+          <p class="card__text">A digital library with thousands of books, audiobooks, and learning videos for students of all reading levels.</p>
+          <span class="card__link">Open Epic! →</span>
+        </a>
+
+        <a href="https://code.org" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="card__title">Code.org</h3>
+          <p class="card__text">Learn computer science through fun, creative coding activities — no experience needed. Great for building logic and problem-solving skills.</p>
+          <span class="card__link">Open Code.org →</span>
+        </a>
+
+        <a href="https://www.storylineonline.net" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <div class="card__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+          <h3 class="card__title">Storyline Online</h3>
+          <p class="card__text">Watch celebrated actors read children's books aloud — a wonderful way to build listening skills and a love of reading.</p>
+          <span class="card__link">Open Storyline Online →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Virtual Field Trips -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header">
+        <h2>Virtual Field Trips &amp; Museums</h2>
+        <p>Explore the world from the classroom — visit famous museums, landmarks, and cultural sites online.</p>
+      </div>
+      <div class="grid grid--4">
+        <a href="https://artsandculture.google.com/partner/alte-nationalgalerie-staatliche-museen-zu-berlin" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">Alte Nationalgalerie, Berlin</h4>
+          <p class="card__text" style="font-size: 0.85rem;">European paintings and sculptures from the 19th century.</p>
+        </a>
+        <a href="https://artsandculture.google.com/partner/the-state-hermitage-museum" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">Hermitage Museum, Russia</h4>
+          <p class="card__text" style="font-size: 0.85rem;">One of the world's largest and oldest museums of art.</p>
+        </a>
+        <a href="https://www.kennedyspacecenter.com/explore-attractions/heroes-and-legends" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">Kennedy Space Center</h4>
+          <p class="card__text" style="font-size: 0.85rem;">Explore space history and NASA's launch operations.</p>
+        </a>
+        <a href="https://artsandculture.google.com/partner/the-national-gallery-london" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">National Gallery, London</h4>
+          <p class="card__text" style="font-size: 0.85rem;">Western European paintings from the 13th to 19th centuries.</p>
+        </a>
+        <a href="https://artsandculture.google.com/partner/van-gogh-museum" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">Van Gogh Museum</h4>
+          <p class="card__text" style="font-size: 0.85rem;">The world's largest collection of Van Gogh's art in Amsterdam.</p>
+        </a>
+        <a href="https://artsandculture.google.com/partner/the-metropolitan-museum-of-art" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">Metropolitan Museum of Art</h4>
+          <p class="card__text" style="font-size: 0.85rem;">5,000 years of art from around the world in New York City.</p>
+        </a>
+        <a href="https://artsandculture.google.com/entity/vatican-museums/m01hfkb" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">Vatican Museums</h4>
+          <p class="card__text" style="font-size: 0.85rem;">Including the Sistine Chapel and Renaissance masterpieces.</p>
+        </a>
+        <a href="https://artsandculture.google.com/project/virtual-tours" target="_blank" rel="noopener" class="card" style="text-decoration: none; padding: var(--space-lg);">
+          <h4 class="card__title" style="font-size: 1rem;">More Virtual Tours</h4>
+          <p class="card__text" style="font-size: 0.85rem;">Explore museums and landmarks from around the world with Google Arts &amp; Culture.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Families -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2>For Families</h2>
+        <p>Helpful information and resources for parents and caregivers.</p>
+      </div>
+      <div class="grid grid--2">
+        <div class="card">
+          <h3 class="card__title">School Information</h3>
+          <div class="card__text">
+            <ul style="list-style: disc; padding-left: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-sm);">
+              <li><strong>School Hours:</strong> Monday – Friday, 8:00 AM – 3:00 PM</li>
+              <li><strong>Phone:</strong> <a href="tel:9164859685">(916) 485-9685</a></li>
+              <li><strong>Fax:</strong> (916) 485-1569</li>
+              <li><strong>Address:</strong> 4436 Engle Road, Sacramento, CA 95821</li>
+              <li><strong>Transportation:</strong> Transportation services are available. Contact the school for details about routes and eligibility.</li>
+              <li><strong>Meals:</strong> Food services are provided during the school day.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Transcripts &amp; Records</h3>
+          <p class="card__text">
+            Current and former students can request official transcripts and academic records by contacting the front office.
+          </p>
+          <p class="card__text">
+            <strong>Phone:</strong> <a href="tel:9164859685">(916) 485-9685</a><br>
+            <strong>Email:</strong> <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+          </p>
+          <p class="card__text" style="margin-top: var(--space-md);">
+            Please allow 5–7 business days for transcript processing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--gray" id="faq">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: var(--space-lg);">
+        <div class="card">
+          <h3 class="card__title">How can I enroll my child at Aldar Academy?</h3>
+          <p class="card__text">All students are referred to Aldar Academy by the school district of residence or through private pay placement. When school districts refer a potential student, they provide academic and behavioral histories, IEPs, and other documentation. We review this information, and if we can meet the student's needs, we arrange a tour and pre-enrollment interview. Once everyone agrees on placement, your child can be enrolled.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">What is an IEP?</h3>
+          <p class="card__text">An IEP (Individual Educational Program) is a detailed written description of your child's educational program. This document is prepared at least once per year by the local school district during an IEP meeting with parents/guardians, school administration, the current teacher, and mental health professionals.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Can I request an IEP meeting?</h3>
+          <p class="card__text">Yes. As the parent/guardian with legal Educational Rights, you can request an IEP meeting at any time. Your school district will hold an IEP meeting at least annually to review your child's progress, but an emergency IEP meeting can always be called if a pressing issue needs to be addressed.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">What is a 26.5 meeting?</h3>
+          <p class="card__text">26.5 refers to Government Code Chapter 26.5, which can make mental health and educational services available to qualifying students. A referral for 26.5 services often occurs after an IEP meeting where additional services are being requested.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Who does Aldar Academy serve?</h3>
+          <p class="card__text">Aldar Academy serves students ages 4–22 (grades K–12) with a range of needs including: emotional disturbance, attention deficit disorder (ADD/ADHD), developmental delays/disabilities, and intellectual delays. We serve a diverse community of students from all local school districts and do not discriminate on the basis of race, color, national origin, sex, age, or disability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Resources / Hotlines -->
+  <section class="section" id="hotlines">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <h2>Emergency &amp; Community Resources</h2>
+        <p>Important hotlines and local support services for families in need.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card">
+          <h3 class="card__title">Crisis &amp; Emergency Hotlines</h3>
+          <div class="card__text">
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--space-sm);">
+              <li><strong>California Youth Crisis Line:</strong> <a href="tel:18008435200">1-800-843-5200</a></li>
+              <li><strong>Children's Protective Services:</strong> <a href="tel:19168755437">1-916-875-5437</a></li>
+              <li><strong>Suicide Prevention:</strong> <a href="tel:19163683111">1-916-368-3111</a></li>
+              <li><strong>National Runaway Hotline:</strong> <a href="tel:18002316946">1-800-231-6946</a></li>
+              <li><strong>Victims of Crime:</strong> <a href="tel:18008428464">1-800-VICTIMS</a></li>
+              <li><strong>WEAVE:</strong> <a href="tel:19169202952">1-916-920-2952</a></li>
+              <li><strong>Sacramento County Mental Health:</strong> <a href="tel:19167323637">1-916-732-3637</a></li>
+              <li><strong>Child Abuse Bureau:</strong> <a href="tel:19168745191">1-916-874-5191</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Counseling &amp; Support Services</h3>
+          <div class="card__text">
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--space-sm);">
+              <li><strong>Diogenes Youth Services:</strong> <a href="tel:19163630063">916-363-0063</a></li>
+              <li><strong>Diogenes Youth &amp; Family:</strong> <a href="tel:19163695447">916-369-5447</a></li>
+              <li><strong>Wind Youth Services:</strong> <a href="tel:19164438333">916-443-8333</a></li>
+              <li><strong>Family Service Agency:</strong> <a href="tel:19163683080">916-368-3080</a></li>
+              <li><strong>La Familia Counseling:</strong> <a href="tel:19164523601">916-452-3601</a></li>
+              <li><strong>Save Our Youth, Inc:</strong> <a href="tel:19169441845">916-944-1845</a></li>
+              <li><strong>Catholic Social Services:</strong> <a href="tel:19164524781">916-452-4781</a></li>
+              <li><strong>Emergency Housing (Family Shelter):</strong> <a href="tel:19164552160">916-455-2160</a></li>
+              <li><strong>Elk Grove Food Bank / Clothes Closet:</strong> <a href="tel:19166858453">916-685-8453</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner Districts & Organizations -->
+  <section class="section section--gray">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <h2>Partner Organizations</h2>
+        <p>We work closely with local school districts and community organizations.</p>
+      </div>
+      <div class="grid grid--2" style="text-align: center;">
+        <a href="https://www.scoe.net" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <h4 class="card__title">Sacramento County Office of Education</h4>
+          <p class="card__text">Our regional education partner providing oversight and support for non-public schools.</p>
+          <span class="card__link">Visit SCOE →</span>
+        </a>
+        <a href="https://www.egusd.net" target="_blank" rel="noopener" class="card" style="text-decoration: none;">
+          <h4 class="card__title">Elk Grove Unified School District</h4>
+          <p class="card__text">One of the many local districts that refers students to Aldar Academy.</p>
+          <span class="card__link">Visit EGUSD →</span>
+        </a>
+      </div>
+      <p class="text-center text-light mt-2" style="font-size: 0.95rem;">
+        Aldar Academy serves students referred from all local school districts in the Sacramento region.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <h4>Aldar Academy</h4>
+          <p>A nonprofit, non-public school in Sacramento serving students with emotional, behavioral, and learning challenges since 1975. Certified by the California State Department of Education.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="about.html">About Us</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+          <a href="resources.html">Resources</a>
+        </div>
+        <div class="footer__links">
+          <h4>Programs</h4>
+          <a href="programs.html#behavior">Behavior Management</a>
+          <a href="programs.html#vocational">Vocational Education</a>
+          <a href="programs.html#counseling">Counseling</a>
+          <a href="programs.html#academics">Academics</a>
+          <a href="programs.html#arts">Art &amp; Music</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>4436 Engle Road<br>Sacramento, CA 95821</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:9164859685">(916) 485-9685</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 Aldar Academy. All rights reserved. EIN: 94-2309423</span>
+        <span>A 501(c)(3) Nonprofit Organization</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

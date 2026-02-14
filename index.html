@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldar Academy — Every Child Deserves a Chance to Thrive</title>
+  <meta name="description" content="Aldar Academy is a nonprofit school in Sacramento serving students with emotional, behavioral, and learning challenges since 1975. Donate to help transform young lives.">
+  <meta property="og:title" content="Aldar Academy — Every Child Deserves a Chance to Thrive">
+  <meta property="og:description" content="A nonprofit school in Sacramento helping students with emotional and behavioral challenges build confidence, take responsibility, and thrive.">
+  <meta property="og:image" content="images/og-image.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.gif" alt="Aldar Academy">
+        <span>Aldar Academy</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link nav__link--active">Home</a>
+        <a href="programs.html" class="nav__link">Programs</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="donate.html" class="nav__link">Donate</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="resources.html" class="nav__link">Resources</a>
+        <a href="donate.html" class="btn btn--accent btn--sm nav__donate">Donate Now</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="background: linear-gradient(135deg, rgba(42,127,98,0.7) 0%, rgba(26,107,80,0.72) 50%, rgba(21,90,66,0.75) 100%), url('images/hero-classroom.jpg') center/cover no-repeat;">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__tagline">Nonprofit School &bull; Sacramento, CA &bull; Since 1975</span>
+        <h1 class="hero__title">Every Child Deserves a Chance to Thrive</h1>
+        <p class="hero__text">
+          Aldar Academy helps young people with emotional, behavioral, and learning challenges
+          build confidence, develop life skills, and discover their potential — one student at a time.
+        </p>
+        <div class="hero__actions">
+          <a href="donate.html" class="btn btn--accent btn--lg">Donate Now</a>
+          <a href="programs.html" class="btn btn--outline btn--lg">Our Programs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Snapshot -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2>Transforming Lives Through Education</h2>
+        <p>
+          For nearly 50 years, Aldar Academy has provided a safe, nurturing environment where students with
+          severe emotional and behavioral challenges receive the individualized support they need to grow
+          academically, socially, and personally.
+        </p>
+      </div>
+
+      <!-- Impact Stats -->
+      <div class="stats">
+        <div class="stat">
+          <div class="stat__number">50+</div>
+          <div class="stat__label">Years Serving Students</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">50%</div>
+          <div class="stat__label">Graduates Attend 4-Year College</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">8:1</div>
+          <div class="stat__label">Student-to-Teacher Ratio</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">80%</div>
+          <div class="stat__label">Students from Low-Income Families</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Overview -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header">
+        <h2>Programs That Make a Difference</h2>
+        <p>Our comprehensive approach addresses every aspect of a student's development — from academics and career readiness to mental health and creative expression.</p>
+      </div>
+      <div class="grid grid--3">
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3 class="card__title">Behavior Management</h3>
+          <p class="card__text">Therapeutic approaches and social-emotional learning that help students develop self-regulation, conflict resolution, and positive social skills.</p>
+          <a href="programs.html#behavior" class="card__link">Learn more →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3 class="card__title">Vocational Education</h3>
+          <p class="card__text">Job skills training, career readiness, internships, and on-site coaching that prepare students for meaningful employment and independence.</p>
+          <a href="programs.html#vocational" class="card__link">Learn more →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="card__title">Counseling &amp; Mental Health</h3>
+          <p class="card__text">Individual and group therapy, self-esteem building, and dedicated mental health counselors assigned to every student.</p>
+          <a href="programs.html#counseling" class="card__link">Learn more →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3 class="card__title">Academic Instruction</h3>
+          <p class="card__text">Small class sizes and individualized learning plans that meet each student where they are and help them reach their academic potential.</p>
+          <a href="programs.html#academics" class="card__link">Learn more →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h3 class="card__title">Art &amp; Music</h3>
+          <p class="card__text">Creative expression through visual arts and music — therapeutic outlets that build confidence, focus, and emotional awareness.</p>
+          <a href="programs.html#arts" class="card__link">Learn more →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+          </div>
+          <h3 class="card__title">Speech &amp; Language</h3>
+          <p class="card__text">Communication support services that help students express themselves, build social connections, and succeed in the classroom.</p>
+          <a href="programs.html#speech" class="card__link">Learn more →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo strip -->
+  <section class="section" style="padding-top: 0; padding-bottom: var(--space-2xl);">
+    <div class="container">
+      <div class="photo-row">
+        <img src="images/classroom-learning.jpg" alt="Students learning together in a small classroom">
+        <img src="images/counseling.jpg" alt="Supportive counseling session with a young person">
+        <img src="images/vocational-training.jpg" alt="Student in vocational training setting">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="section">
+    <div class="container">
+      <div class="testimonial">
+        <p class="testimonial__quote">
+          Aldar Academy gave my child something no other school could — a place where he felt safe enough to learn, grow, and believe in himself again. The staff truly cares about every student.
+        </p>
+        <p class="testimonial__author">— Parent of an Aldar Academy Student</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2>Support Our Students</h2>
+        <p>
+          Your donation directly supports the programs, staff, and resources that help our students
+          overcome challenges and build brighter futures. Every gift — no matter the size — makes a real difference.
+        </p>
+        <a href="donate.html" class="btn btn--lg">Donate Today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <h4>Aldar Academy</h4>
+          <p>A nonprofit, non-public school in Sacramento serving students with emotional, behavioral, and learning challenges since 1975. Certified by the California State Department of Education.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="about.html">About Us</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+          <a href="resources.html">Resources</a>
+        </div>
+        <div class="footer__links">
+          <h4>Programs</h4>
+          <a href="programs.html#behavior">Behavior Management</a>
+          <a href="programs.html#vocational">Vocational Education</a>
+          <a href="programs.html#counseling">Counseling</a>
+          <a href="programs.html#academics">Academics</a>
+          <a href="programs.html#arts">Art &amp; Music</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>4436 Engle Road<br>Sacramento, CA 95821</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:9164859685">(916) 485-9685</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 Aldar Academy. All rights reserved. EIN: 94-2309423</span>
+        <span>A 501(c)(3) Nonprofit Organization</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

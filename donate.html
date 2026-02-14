@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate — Support Aldar Academy Students</title>
+  <meta name="description" content="Your donation to Aldar Academy helps students with emotional and behavioral challenges receive the education, therapy, and support they need to thrive.">
+  <meta property="og:title" content="Donate — Support Aldar Academy Students">
+  <meta property="og:description" content="Help transform young lives. Every donation directly supports programs for students with emotional and behavioral challenges.">
+  <meta property="og:image" content="images/og-image.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.gif" alt="Aldar Academy">
+        <span>Aldar Academy</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="programs.html" class="nav__link">Programs</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="donate.html" class="nav__link nav__link--active">Donate</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="resources.html" class="nav__link">Resources</a>
+        <a href="donate.html" class="btn btn--accent btn--sm nav__donate">Donate Now</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Support Our Students</h1>
+      <p>Every gift — no matter the size — helps a young person build confidence, develop skills, and discover their potential.</p>
+    </div>
+  </section>
+
+  <!-- Emotional Appeal -->
+  <section class="section">
+    <div class="container container--narrow">
+      <img src="images/student-success.jpg" alt="Student smiling with a sense of accomplishment" style="width: 100%; border-radius: var(--radius-lg); margin-bottom: var(--space-2xl); max-height: 400px; object-fit: cover;">
+      <h2 class="mb-2">Your Donation Changes Lives</h2>
+      <p style="font-size: 1.1rem; line-height: 1.9;">
+        Imagine a child who has been told — by their behavior, their circumstances, or the world around them — that they don't belong in a classroom. That they can't succeed. That they're "too much" or "not enough."
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.9;">
+        At Aldar Academy, we see something different. We see a young person with potential — someone who, with the right support, structure, and care, can learn to manage their emotions, discover their strengths, and build a future they're proud of.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.9;">
+        For nearly 50 years, we've been proving this is possible — 50% of our graduates go on to attend four-year colleges. But 80% of our students come from families at or below the poverty level, and we can't do this work without your help. Your donation directly funds the therapists, teachers, job coaches, and programs that make transformation possible — one student at a time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Donation Amounts -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header">
+        <h2>See Your Impact</h2>
+        <p>Here's how your generosity translates into real support for our students.</p>
+      </div>
+      <div class="grid grid--4">
+        <div class="donate-amount">
+          <div class="donate-amount__value">$25</div>
+          <p class="donate-amount__impact">Provides art supplies for a student for one month</p>
+        </div>
+        <div class="donate-amount">
+          <div class="donate-amount__value">$50</div>
+          <p class="donate-amount__impact">Funds a week of social skills curriculum materials</p>
+        </div>
+        <div class="donate-amount">
+          <div class="donate-amount__value">$150</div>
+          <p class="donate-amount__impact">Sponsors a student's participation in a community work experience</p>
+        </div>
+        <div class="donate-amount">
+          <div class="donate-amount__value">$500</div>
+          <p class="donate-amount__impact">Supports a month of vocational training for one student</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Now / PayPal -->
+  <section class="section" id="give">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <h2>Make a Donation</h2>
+        <p>Aldar Academy is a 501(c)(3) nonprofit organization. Your donation is tax-deductible to the fullest extent allowed by law.</p>
+      </div>
+
+      <!-- Donation Options -->
+      <div class="grid grid--2">
+        <div class="card" style="text-align: center; border: 2px solid var(--color-primary);">
+          <h3 class="card__title" style="color: var(--color-primary);">One-Time Gift</h3>
+          <p class="card__text mb-2">Make a single donation of any amount to support our students and programs.</p>
+
+          <!-- ============================================================
+               PAYPAL ONE-TIME DONATION BUTTON
+               Replace this entire comment block with your PayPal button HTML.
+               To create your button:
+               1. Go to https://www.paypal.com/donate/buttons
+               2. Log in to your PayPal Business account
+               3. Choose "One-time" donation type
+               4. Customize amounts, add your logo
+               5. Copy the generated HTML and paste it here
+               ============================================================ -->
+          <a href="mailto:info@aldaracademy.org?subject=Donation%20Inquiry" class="btn btn--primary">Donate Now</a>
+          <!-- Remove the mailto link above once you paste your PayPal button -->
+
+        </div>
+        <div class="card" style="text-align: center; border: 2px solid var(--color-secondary); background: var(--color-secondary-light);">
+          <h3 class="card__title" style="color: var(--color-secondary-dark);">Monthly Giving</h3>
+          <p class="card__text mb-2">Become a sustaining supporter with an automatic monthly donation. Recurring gifts provide the stable funding our programs depend on.</p>
+
+          <!-- ============================================================
+               PAYPAL MONTHLY/RECURRING DONATION BUTTON
+               Replace this entire comment block with your PayPal button HTML.
+               To create your button:
+               1. Go to https://www.paypal.com/donate/buttons
+               2. Log in to your PayPal Business account
+               3. Choose "Recurring" donation type / enable monthly giving
+               4. Set suggested monthly amounts
+               5. Copy the generated HTML and paste it here
+               ============================================================ -->
+          <a href="mailto:info@aldaracademy.org?subject=Monthly%20Giving%20Inquiry" class="btn btn--secondary">Give Monthly</a>
+          <!-- Remove the mailto link above once you paste your PayPal button -->
+
+        </div>
+      </div>
+
+      <p class="text-center mt-2" style="font-size: 0.9rem; color: var(--color-text-light);">
+        <strong>Zero-fee alternative:</strong> <a href="https://www.zeffy.com" target="_blank" rel="noopener">Zeffy</a> charges no platform fees to nonprofits or donors and also supports recurring giving.
+      </p>
+
+      <p class="text-center mt-3" style="font-size: 0.95rem; color: var(--color-text-light);">
+        <strong>EIN:</strong> 94-2309423 &nbsp;|&nbsp; Aldar Academy is a registered 501(c)(3) nonprofit organization.
+      </p>
+    </div>
+  </section>
+
+  <!-- Corporate Giving -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header">
+        <h2>Corporate &amp; Foundation Partnerships</h2>
+        <p>Partner with Aldar Academy to make a lasting impact on Sacramento's most vulnerable youth.</p>
+      </div>
+      <div class="grid grid--3">
+        <div class="tier">
+          <h3 class="tier__name">Community Partner</h3>
+          <p class="tier__amount">$1,000 – $4,999</p>
+          <ul class="tier__benefits">
+            <li>Recognition on our website</li>
+            <li>Annual impact report</li>
+            <li>Invitation to school events</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline-primary btn--sm">Get in Touch</a>
+        </div>
+        <div class="tier tier--featured">
+          <h3 class="tier__name">Program Sponsor</h3>
+          <p class="tier__amount">$5,000 – $14,999</p>
+          <ul class="tier__benefits">
+            <li>All Community Partner benefits</li>
+            <li>Named sponsorship of a program</li>
+            <li>Campus tour and student showcase</li>
+            <li>Quarterly progress updates</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary btn--sm">Get in Touch</a>
+        </div>
+        <div class="tier">
+          <h3 class="tier__name">Champion</h3>
+          <p class="tier__amount">$15,000+</p>
+          <ul class="tier__benefits">
+            <li>All Program Sponsor benefits</li>
+            <li>Advisory council participation</li>
+            <li>Employee volunteer days</li>
+            <li>Custom partnership opportunities</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline-primary btn--sm">Get in Touch</a>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="text-light">
+          <strong>Matching Gifts:</strong> Many employers match charitable donations. Check with your HR department to double your impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Ways to Give -->
+  <section class="section">
+    <div class="container container--narrow">
+      <h2 class="text-center mb-3">Other Ways to Give</h2>
+      <div class="grid grid--2">
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3 class="card__title">Donate by Phone</h3>
+          <p class="card__text">
+            Call our donation hotline to make a gift over the phone:
+            <br><br>
+            <strong style="font-size: 1.25rem;"><a href="tel:8887366283">888-7-DONATE</a></strong><br>
+            <span style="font-size: 0.85rem;">(888-736-6283)</span>
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h3 class="card__title">Mail a Check</h3>
+          <p class="card__text">
+            Make checks payable to <strong>Aldar Academy</strong> and mail to:
+            <br><br>
+            Aldar Academy<br>
+            4436 Engle Road<br>
+            Sacramento, CA 95821
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3 class="card__title">Donate Your Vehicle</h3>
+          <p class="card__text">
+            Have a car, truck, or boat you no longer need? Donate your vehicle to Aldar Academy — it's tax-deductible and supports our students. <a href="contact.html">Contact us</a> for details.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          </div>
+          <h3 class="card__title">eScrip</h3>
+          <p class="card__text">
+            Support Aldar Academy every time you shop. Through eScrip, participating merchants like Safeway and Macy's contribute a percentage of your purchases to our school — at no extra cost to you.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="card__title">Volunteer</h3>
+          <p class="card__text">
+            We welcome volunteers through our partnership with <a href="https://www.handsonsacto.org/" target="_blank" rel="noopener">HandsOn Sacramento</a>. Share your skills — tutoring, mentoring, events, or facility help. <a href="contact.html">Contact us</a> to learn more.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3 class="card__title">In-Kind Donations</h3>
+          <p class="card__text">
+            We gratefully accept donations of art supplies, sports equipment, classroom materials, technology, and other items that support our programs. <a href="contact.html">Reach out</a> to see what's needed.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="card__title">Planned Giving</h3>
+          <p class="card__text">
+            Include Aldar Academy in your estate planning. A legacy gift ensures future generations of students continue to receive the support they need. <a href="contact.html">Contact us</a> to discuss options.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <h4>Aldar Academy</h4>
+          <p>A nonprofit, non-public school in Sacramento serving students with emotional, behavioral, and learning challenges since 1975. Certified by the California State Department of Education.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="about.html">About Us</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+          <a href="resources.html">Resources</a>
+        </div>
+        <div class="footer__links">
+          <h4>Programs</h4>
+          <a href="programs.html#behavior">Behavior Management</a>
+          <a href="programs.html#vocational">Vocational Education</a>
+          <a href="programs.html#counseling">Counseling</a>
+          <a href="programs.html#academics">Academics</a>
+          <a href="programs.html#arts">Art &amp; Music</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>4436 Engle Road<br>Sacramento, CA 95821</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:9164859685">(916) 485-9685</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 Aldar Academy. All rights reserved. EIN: 94-2309423</span>
+        <span>A 501(c)(3) Nonprofit Organization</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

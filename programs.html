@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Programs — Aldar Academy</title>
+  <meta name="description" content="Aldar Academy offers comprehensive programs including behavior management, vocational training, counseling, academics, art & music, and speech services for students with emotional and behavioral challenges.">
+  <meta property="og:title" content="Our Programs — Aldar Academy">
+  <meta property="og:description" content="Comprehensive programs in behavior management, vocational education, counseling, academics, and more for students with emotional and behavioral challenges.">
+  <meta property="og:image" content="images/og-image.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.gif" alt="Aldar Academy">
+        <span>Aldar Academy</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="programs.html" class="nav__link nav__link--active">Programs</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="donate.html" class="nav__link">Donate</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="resources.html" class="nav__link">Resources</a>
+        <a href="donate.html" class="btn btn--accent btn--sm nav__donate">Donate Now</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Programs</h1>
+      <p>A comprehensive approach to education, therapy, and life skills — designed to meet every student where they are.</p>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section class="section">
+    <div class="container container--narrow">
+
+      <!-- Behavior Management -->
+      <div class="program" id="behavior">
+        <div class="program__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Behavior Management</h3>
+          <p class="program__text">
+            Our behavior management program is built on the belief that every student can learn to make positive choices when given the right tools, structure, and support. Students learn appropriate behavior through clearly defined expectations, constructive and regular feedback, self-monitoring, and self-reporting.
+          </p>
+          <p class="program__text">
+            We use positive role model relationships and established social skills curricula, supported by our mental health team, to help students develop self-regulation, conflict resolution, and self-advocacy skills. Every student is assigned at least one dedicated mental health counselor for 1:1 support.
+          </p>
+          <div class="program__features">
+            <span class="program__tag">Social-Emotional Learning</span>
+            <span class="program__tag">Self-Regulation</span>
+            <span class="program__tag">Conflict Resolution</span>
+            <span class="program__tag">1:1 Counseling</span>
+            <span class="program__tag">Positive Reinforcement</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vocational Education -->
+      <div class="program" id="vocational">
+        <div class="program__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Vocational Education &amp; WorkAbility</h3>
+          <p class="program__text">
+            Our Vocational Education Program provides pre-employment training and real-world work experiences for students ages 14 to 22, modeled after the California Department of Education's WorkAbility 1 Program. Regardless of their specific level of capability, every student has the opportunity to develop career readiness skills.
+          </p>
+          <p class="program__text">
+            Our school-wide team — including a Work Readiness Coordinator, instructional staff, and mental health professionals — prepares students through classroom curriculum, on-site training, community-based instructional outings, and internships. Students work closely with a Job Coach who provides hands-on training at job sites, then gradually fades support to help students build independence and problem-solving skills.
+          </p>
+          <div class="program__features">
+            <span class="program__tag">Job Skills Training</span>
+            <span class="program__tag">Career Readiness</span>
+            <span class="program__tag">Internships</span>
+            <span class="program__tag">Job Coaching</span>
+            <span class="program__tag">Community Outings</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Counseling & Mental Health -->
+      <div class="program" id="counseling">
+        <div class="program__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Counseling &amp; Mental Health</h3>
+          <p class="program__text">
+            Our comprehensive mental health program addresses every student's psychological and social needs. Every student meets regularly with an individual therapist, participates in weekly classroom groups, and has opportunities to join small groups addressing specific topics.
+          </p>
+          <p class="program__text">
+            Our mental health team includes a Mental Health Coordinator who oversees all programming, a consulting psychologist for collaboration and clinical guidance, and licensed therapists who provide individual sessions focused on boundary-setting, self-esteem, conflict resolution, self-advocacy, and celebrating student successes.
+          </p>
+          <div class="program__features">
+            <span class="program__tag">Individual Therapy</span>
+            <span class="program__tag">Group Therapy</span>
+            <span class="program__tag">Self-Esteem Building</span>
+            <span class="program__tag">Psychologist Consultation</span>
+            <span class="program__tag">Crisis Support</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Instruction -->
+      <div class="program" id="academics">
+        <div class="program__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Academic Instruction</h3>
+          <p class="program__text">
+            Aldar Academy provides individualized academic instruction in small classroom settings with an 8:1 student-to-teacher ratio. Every student's educational plan is tailored to their IEP goals and personal learning needs, ensuring they receive the right level of challenge and support.
+          </p>
+          <p class="program__text">
+            Our credentialed teachers work closely with mental health staff and support personnel to create a learning environment where students feel safe to take academic risks, build foundational skills, and experience the pride that comes with real achievement.
+          </p>
+          <p class="program__text">
+            Our curriculum aligns with the California Department of Education standards. Teachers utilize project-based learning, direct instruction, small group instruction, and thematic teaching while implementing all IEP accommodations and modifications. Materials are provided at both the student's instructional level and assigned grade level. Homework and online learning are available for supplemental support at home.
+          </p>
+          <p class="program__text" style="margin-top: var(--space-md);">
+            <strong>Course of Study documents:</strong>
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-sm);">
+            <a href="https://www.aldaracademy.org/files/user/229/file/First-Grade-Program-Overview.docx" class="program__doc-link">1st Grade</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/Second-Grade-Program-Overview.docx" class="program__doc-link">2nd Grade</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/Third-Grade-Program-Overview.docx" class="program__doc-link">3rd Grade</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/Fourth-Grade-Program-Overview.docx" class="program__doc-link">4th Grade</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/Fifth-Grade-Program-Overview.docx" class="program__doc-link">5th Grade</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/Junior-High-Course-of-Study.docx" class="program__doc-link">Junior High</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/High-School-Course-of-Study.docx" class="program__doc-link">High School (Diploma)</a>
+            <a href="https://www.aldaracademy.org/files/user/229/file/CERTIFICATE-OF-COMPLETION-COURSE-OF-STUDY.docx" class="program__doc-link">High School (Certificate)</a>
+          </div>
+          <div class="program__features" style="margin-top: var(--space-lg);">
+            <span class="program__tag">Small Class Sizes</span>
+            <span class="program__tag">Individualized Learning</span>
+            <span class="program__tag">IEP-Aligned</span>
+            <span class="program__tag">Credentialed Teachers</span>
+            <span class="program__tag">CA Standards</span>
+            <span class="program__tag">Project-Based Learning</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Art & Music -->
+      <div class="program" id="arts">
+        <div class="program__icon" style="background: var(--color-secondary-light); color: var(--color-secondary-dark);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Art &amp; Music</h3>
+          <p class="program__text">
+            Creative expression is a powerful therapeutic tool. Our art and music programs give students safe outlets for emotions that are often difficult to express in words. Through visual arts, music, and creative projects, students build confidence, develop focus, and discover new strengths.
+          </p>
+          <p class="program__text">
+            These programs aren't just extracurriculars — they're integral to our therapeutic approach, helping students develop emotional awareness, patience, and the satisfaction of creating something meaningful.
+          </p>
+          <div class="program__features">
+            <span class="program__tag">Visual Arts</span>
+            <span class="program__tag">Music</span>
+            <span class="program__tag">Creative Expression</span>
+            <span class="program__tag">Therapeutic Arts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Speech & Language -->
+      <div class="program" id="speech">
+        <div class="program__icon" style="background: var(--color-accent-light); color: var(--color-accent);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Speech &amp; Language Services</h3>
+          <p class="program__text">
+            Effective communication is the foundation for social success and academic achievement. Our speech and language services help students develop the communication skills they need to express themselves clearly, build relationships, and participate fully in the classroom.
+          </p>
+          <p class="program__text">
+            Services are tailored to each student's IEP goals and may include individual sessions, small group work, and classroom-based support to ensure skills transfer to everyday interactions.
+          </p>
+          <div class="program__features">
+            <span class="program__tag">Speech Therapy</span>
+            <span class="program__tag">Language Development</span>
+            <span class="program__tag">Social Communication</span>
+            <span class="program__tag">IEP-Aligned Goals</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sports & PE -->
+      <div class="program" id="sports">
+        <div class="program__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div>
+          <h3 class="program__title">Sports &amp; Physical Education</h3>
+          <p class="program__text">
+            Physical activity plays a vital role in emotional regulation, confidence-building, and teamwork. Aldar Academy offers interscholastic sports — including basketball, flag football, and soccer — as well as regular physical education.
+          </p>
+          <p class="program__text">
+            For many of our students, being part of a team is a transformative experience. Sports teach cooperation, perseverance, and the ability to manage frustration — skills that translate directly to the classroom and beyond.
+          </p>
+          <div class="program__features">
+            <span class="program__tag">Basketball</span>
+            <span class="program__tag">Flag Football</span>
+            <span class="program__tag">Soccer</span>
+            <span class="program__tag">Team Building</span>
+            <span class="program__tag">Physical Fitness</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2>Help Us Expand These Programs</h2>
+        <p>Your donation helps fund the specialized staff, resources, and materials that make these programs possible for students who need them most.</p>
+        <a href="donate.html" class="btn btn--lg">Donate Today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <h4>Aldar Academy</h4>
+          <p>A nonprofit, non-public school in Sacramento serving students with emotional, behavioral, and learning challenges since 1975. Certified by the California State Department of Education.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="about.html">About Us</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+          <a href="resources.html">Resources</a>
+        </div>
+        <div class="footer__links">
+          <h4>Programs</h4>
+          <a href="programs.html#behavior">Behavior Management</a>
+          <a href="programs.html#vocational">Vocational Education</a>
+          <a href="programs.html#counseling">Counseling</a>
+          <a href="programs.html#academics">Academics</a>
+          <a href="programs.html#arts">Art &amp; Music</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>4436 Engle Road<br>Sacramento, CA 95821</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:9164859685">(916) 485-9685</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 Aldar Academy. All rights reserved. EIN: 94-2309423</span>
+        <span>A 501(c)(3) Nonprofit Organization</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

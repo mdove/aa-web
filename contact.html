@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Enrollment — Aldar Academy</title>
+  <meta name="description" content="Contact Aldar Academy in Sacramento to learn about enrollment, programs, or how you can support our students. Call (916) 485-9685 or visit us at 4436 Engle Road.">
+  <meta property="og:title" content="Contact & Enrollment — Aldar Academy">
+  <meta property="og:description" content="Get in touch with Aldar Academy. Learn about enrollment, our programs, or how you can support our students.">
+  <meta property="og:image" content="images/og-image.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.gif" alt="Aldar Academy">
+        <span>Aldar Academy</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="programs.html" class="nav__link">Programs</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="donate.html" class="nav__link">Donate</a>
+        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+        <a href="resources.html" class="nav__link">Resources</a>
+        <a href="donate.html" class="btn btn--accent btn--sm nav__donate">Donate Now</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact &amp; Enrollment</h1>
+      <p>We'd love to hear from you — whether you're a school district, a parent, a potential donor, or a community partner.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+
+        <!-- Contact Form -->
+        <div>
+          <h2 class="mb-2">Get in Touch</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number (optional)</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="subject">I'm interested in...</label>
+              <select id="subject" name="subject">
+                <option value="General Information">General Information</option>
+                <option value="Enrollment / Referral">Enrollment / Referral</option>
+                <option value="Donating / Sponsorship">Donating / Sponsorship</option>
+                <option value="Volunteering">Volunteering</option>
+                <option value="Corporate Partnership">Corporate Partnership</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send Message</button>
+            <p class="text-light mt-1" style="font-size: 0.85rem;">
+              This will open your email client with a pre-filled message to Aldar Academy.
+            </p>
+          </form>
+          <script>
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+              e.preventDefault();
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+              var phone = document.getElementById('phone').value;
+              var subject = document.getElementById('subject').value;
+              var message = document.getElementById('message').value;
+              var body = 'Name: ' + name + '\nEmail: ' + email;
+              if (phone) body += '\nPhone: ' + phone;
+              body += '\n\n' + message;
+              window.location.href = 'mailto:info@aldaracademy.org?subject=' +
+                encodeURIComponent(subject + ' — Contact from Website') +
+                '&body=' + encodeURIComponent(body);
+            });
+          </script>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h2 class="mb-2">Contact Information</h2>
+          <div class="contact-info-block mb-3">
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Address</h4>
+                <p>4436 Engle Road<br>Sacramento, CA 95821</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:9164859685">(916) 485-9685</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div>
+                <h4>School Hours</h4>
+                <p>Monday – Friday, 8:00 AM – 3:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div style="border-radius: var(--radius-lg); overflow: hidden; height: 350px;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.8!2d-121.409!3d38.6105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809adb3a5d2e9b7b%3A0x4e5f2b9c3a8d1234!2s4436+Engle+Rd%2C+Sacramento%2C+CA+95821!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              width="100%"
+              height="350"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Aldar Academy location on Google Maps">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Enrollment -->
+  <section class="section section--gray" id="enrollment">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <h2>Enrollment Process</h2>
+        <p>Aldar Academy serves students referred by local school districts and through private placement. Here's how enrollment works.</p>
+      </div>
+
+      <div class="enrollment-steps">
+        <div class="enrollment-step">
+          <div class="enrollment-step__number">1</div>
+          <div class="enrollment-step__content">
+            <h4>Referral</h4>
+            <p>Students are referred to Aldar Academy by their school district of residence through an IEP team decision, or through private pay placement. The referring district provides academic and behavioral histories, current IEPs, and other relevant documentation.</p>
+          </div>
+        </div>
+        <div class="enrollment-step">
+          <div class="enrollment-step__number">2</div>
+          <div class="enrollment-step__content">
+            <h4>Review</h4>
+            <p>Our team carefully reviews all provided information to determine whether we can meet the student's unique needs. We look at the whole child — academics, behavior, therapeutic needs, and family situation.</p>
+          </div>
+        </div>
+        <div class="enrollment-step">
+          <div class="enrollment-step__number">3</div>
+          <div class="enrollment-step__content">
+            <h4>Tour &amp; Interview</h4>
+            <p>If we determine we can serve the student well, we arrange a campus tour and pre-enrollment interview with the student and their parent or guardian. This is an opportunity for everyone to ask questions and ensure it's the right fit.</p>
+          </div>
+        </div>
+        <div class="enrollment-step">
+          <div class="enrollment-step__number">4</div>
+          <div class="enrollment-step__content">
+            <h4>Enrollment</h4>
+            <p>Once Aldar Academy and the parent/guardian agree on placement, the student is enrolled and we begin developing their individualized education and therapeutic plan. The transition is supported every step of the way.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-3">
+        <p class="text-light mb-2">
+          <strong>Districts served:</strong> Aldar Academy welcomes students from all local school districts in the Sacramento region.
+        </p>
+        <p class="text-light mb-2">
+          <strong>Ages:</strong> 4–22 &nbsp;|&nbsp; <strong>Grades:</strong> K–12
+        </p>
+        <p class="text-light mb-2">
+          <strong>Transportation:</strong> Available for enrolled students. Contact us for route and eligibility details.
+        </p>
+        <p class="text-light mb-2">
+          <strong>Meals:</strong> Food services are provided during the school day.
+        </p>
+        <a href="tel:9164859685" class="btn btn--primary">Call Us: (916) 485-9685</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <h4>Aldar Academy</h4>
+          <p>A nonprofit, non-public school in Sacramento serving students with emotional, behavioral, and learning challenges since 1975. Certified by the California State Department of Education.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="about.html">About Us</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+          <a href="resources.html">Resources</a>
+        </div>
+        <div class="footer__links">
+          <h4>Programs</h4>
+          <a href="programs.html#behavior">Behavior Management</a>
+          <a href="programs.html#vocational">Vocational Education</a>
+          <a href="programs.html#counseling">Counseling</a>
+          <a href="programs.html#academics">Academics</a>
+          <a href="programs.html#arts">Art &amp; Music</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>4436 Engle Road<br>Sacramento, CA 95821</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:9164859685">(916) 485-9685</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@aldaracademy.org">info@aldaracademy.org</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 Aldar Academy. All rights reserved. EIN: 94-2309423</span>
+        <span>A 501(c)(3) Nonprofit Organization</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
